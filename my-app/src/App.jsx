@@ -1,15 +1,13 @@
-import { Link, Outlet } from "react-router-dom"
-export default function App(){
+import { Outlet, Link } from "react-router-dom"
+export default function App() {
     return(
-        <>
-        <p>My Github Page</p>
+        <>        
+        
+        <p>Under work</p>
 
-        <Link to={"infoPage"}>Infopage</Link>
+        <Link to={'Test/'}>Test</Link>
 
-        <div>
-            <Outlet></Outlet>
-        </div>
-
-        </>
+        <div><Outlet/></div>
+    </>
     )
-}
+};

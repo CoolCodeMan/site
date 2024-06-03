@@ -1,22 +1,23 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
 import "./index.css";
-import App from "./App";
-import ErrorPage from "./errorPage";
-import InfoPage from "./routes/infoPage";
+import Test from "./routes/Test.jsx";
+
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App />,
-    errorElement: <ErrorPage />,
+    element: <App />,
     children:[
         {
-            path: "/infoPage",
-            element: <InfoPage />,
+        path:"Test/",
+        element: <Test />
         }
     ]
+
   },
 ]);
 
