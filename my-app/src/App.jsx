@@ -2,8 +2,7 @@ import { Outlet } from "react-router-dom";
 export default function App() {
     return(
         <>
-        <div><h1><a href="#/">My Github Page</a></h1></div>
-
+        <h1>🦍 My Github Page ☀️</h1>
 
         <div>
         <ul>
