@@ -12,6 +12,7 @@ import Projects from './pages/Projects';
 import './index.css';
 import MonkeyPage from './pages/MonkeyPage';
 import Updates from './pages/Updates';
+import Texts from './pages/Texts';
 
 const router = createHashRouter([
   {
@@ -48,6 +49,14 @@ const router = createHashRouter([
             element: <Updates />,
             
         },
+
+        {
+            path: "/*Texts",
+            element: <Texts />,
+            
+        },
+
+
 
 
     ]

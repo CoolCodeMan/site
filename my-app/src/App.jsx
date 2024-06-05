@@ -22,20 +22,26 @@ export default function App() {
             <br/>
 
             <li>
+                <a href="#/Texts">Texts</a>
+            </li>
+            <br/><br/><br/><br/>
+
+            <li>
                 <a href="#/Projects">Projects</a>
             </li>
 
             <br/>
 
             <li>
-                <a href="#/Updates">Updates</a>
+                <a href="#/Updates">Site Updates</a>
             </li>
             <br/>
             
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/>
 
+
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/>
 
 
 
