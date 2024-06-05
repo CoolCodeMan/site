@@ -5,7 +5,7 @@ export default function Updates() {
             Updates:
         </h3>
 
-
+        <p><i>2024/06/06: Added Texts section</i></p>
         <p><i>2024/06/05: Page deployed</i></p>
 
 
