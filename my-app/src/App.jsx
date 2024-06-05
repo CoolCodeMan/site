@@ -6,6 +6,8 @@ export default function App() {
         <div id="navBar">
         <h2>💻🦍 My Github Page ☀️</h2>
 
+        <br/><br/><br/>
+
         <ul>
 
             <li>
