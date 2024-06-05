@@ -11,6 +11,7 @@ import BlackJackGame from './pages/Blackjackgame';
 import Projects from './pages/Projects';
 import './index.css';
 import MonkeyPage from './pages/MonkeyPage';
+import Updates from './pages/Updates';
 
 const router = createHashRouter([
   {
@@ -42,7 +43,11 @@ const router = createHashRouter([
             
         },
 
-
+        {
+            path: "/*Updates",
+            element: <Updates />,
+            
+        },
 
 
     ]

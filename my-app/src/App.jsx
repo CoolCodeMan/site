@@ -4,7 +4,7 @@ export default function App() {
         <>
 
         <div id="navBar">
-        <h1>🦍 My Github Page ☀️</h1>
+        <h2>💻🦍 My Github Page ☀️</h2>
 
         <ul>
 
@@ -12,6 +12,7 @@ export default function App() {
                 <a href="#/Infopage">Info</a>
             </li>
             <br/>
+
 
             <li>
                 <a href="#/Blackjackgame">Blackjack Game</a>
@@ -21,6 +22,13 @@ export default function App() {
             <li>
                 <a href="#/Projects">Projects</a>
             </li>
+
+            <br/>
+
+            <li>
+                <a href="#/Updates">Updates</a>
+            </li>
+            <br/>
             
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>
