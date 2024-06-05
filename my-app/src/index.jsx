@@ -13,6 +13,9 @@ import './index.css';
 import MonkeyPage from './pages/MonkeyPage';
 import Updates from './pages/Updates';
 import Texts from './pages/Texts';
+import ArticleTemplate from './pages/articles/ArticleTemplate';
+import BashCommands from './pages/articles/BashCommands';
+import SQLCommands from './pages/articles/SQLCommands';
 
 const router = createHashRouter([
   {
@@ -21,41 +24,18 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
 
     children: [
-        {
-            path: "/*Infopage",
-            element: <Infopage />,
-            
-        },
-        {
-            path: "/*Blackjackgame",
-            element: <BlackJackGame />,
-            
-        },
+        {path: "/*Infopage", element: <Infopage />,},
+        {path: "/*Blackjackgame", element: <BlackJackGame />,},
+        {path: "/*Projects", element: <Projects />,},
+        {path: "/*MonkeyPage", element: <MonkeyPage />, },
+        {path: "/*Updates",element: <Updates />,},
+        {path:"/*Texts", element: <Texts />,},
 
-        {
-            path: "/*Projects",
-            element: <Projects />,
-            
-        },
 
-        {
-            path: "/*MonkeyPage",
-            element: <MonkeyPage />,
-            
-        },
-
-        {
-            path: "/*Updates",
-            element: <Updates />,
-            
-        },
-
-        {
-            path: "/*Texts",
-            element: <Texts />,
-            
-        },
-
+        //Articles
+        {path:"/*articles/ArticleTemplate", element: <ArticleTemplate />,}, //copy this template
+        {path:"/*articles/BashCommands", element: <BashCommands />,},
+        {path:"/*articles/SQLCommands", element: <SQLCommands/>,},
 
 
 
