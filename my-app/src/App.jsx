@@ -6,39 +6,18 @@ export default function App() {
         <div id="navBar">
         <h2>💻🦍 My Github Page ☀️</h2>
 
-        <br/><br/>
-
-     
-
-            
+            <br/><br/>
                 <a href="#/Infopage">Info</a>
-           
-            <br/>
-
+            <br/><br/>
                 <a href="#/Blackjackgame">Blackjack Game</a>
             <br/><br/>
-
-
                 <a href="#/Texts">Texts</a>
             <br/><br/>
                 <a href="#/Projects">Projects</a>
-
-            <br/>
-
+            <br/><br/>
                 <a href="#/Updates">Site Updates</a>
-            <br/>
-            
-
-
-
-            <br/><br/><br/>
-
-
-
-
-
-
-
+           
+            <br/><br/><br/><br/>
                 <a href="#/MonkeyPage">???</a>
 
 
