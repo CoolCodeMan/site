@@ -3,8 +3,9 @@ import Monkey from '../assets/monkey.jpg'
 export default function MonkeyPage() {
     return(
         <>
-        <img src={Monkey} />
-        <p>Wow!</p>
+        <br/>
+        <img src={Monkey} alt='a monkey using a computer, made with AI' />
+        <p>Wow! It's a monkey</p>
         </>
     )
 }

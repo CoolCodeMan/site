@@ -1,15 +1,18 @@
-import { Outlet, Link } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 export default function Texts() {
     return(
         <>
-        <h3>Articles</h3>
-            
-            <a href="#/articles/ArticleTemplate">Article Name - Template</a><br/><br/>
+        <h3>Texts</h3>
 
+        <ul>
+            {/* <li><a href="#/articles/ArticleTemplate">Article Name - Template</a><br/><br/></li> */}
 
-            <a href="#/articles/BashCommands">Useful BASH Commands - 2024/06/06</a><br/><br/>
-            <a href="#/articles/SQLCommands">Useful SQL Commands - 2024/06/06</a>
+             
 
+            <li><b><a href="#/articles/BashCommands">Useful BASH Commands - 2024/06/06</a></b><br/><br/></li>
+            <li><b><a href="#/articles/SQLCommands">Useful SQL Commands - 2024/06/06</a></b></li>
+
+            </ul>
 
             <div>
                 <Outlet/>

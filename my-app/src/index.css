@@ -8,18 +8,27 @@ a {
 
   
 #contentBox {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: auto;
     position: absolute;
-    top: 0px;
+    top: 8px;
     left: 25%;
     background-color:whitesmoke;
-    width: 73%;
-    height: 100%;
+    width: 50%;
+    height: 90%;
     padding-left: 2%;
+    border: 2px solid silver;
+    border-radius: 10px;
 
 }
 
+
+
+
 #navBar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid silver;
+    border-radius: 10px;
     left: 0%;
     top: 0%;
     width: 20%;

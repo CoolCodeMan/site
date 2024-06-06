@@ -7,7 +7,7 @@ import {
 import App from './App';
 import ErrorPage from './errorPage';
 import Infopage from './pages/Infopage';
-import BlackJackGame from './pages/Blackjackgame';
+import BlackJackGame from './pages/projects/Blackjackgame';
 import Projects from './pages/Projects';
 import './index.css';
 import MonkeyPage from './pages/MonkeyPage';
@@ -25,7 +25,6 @@ const router = createHashRouter([
 
     children: [
         {path: "/*Infopage", element: <Infopage />,},
-        {path: "/*Blackjackgame", element: <BlackJackGame />,},
         {path: "/*Projects", element: <Projects />,},
         {path: "/*MonkeyPage", element: <MonkeyPage />, },
         {path: "/*Updates",element: <Updates />,},
@@ -36,6 +35,10 @@ const router = createHashRouter([
         {path:"/*articles/ArticleTemplate", element: <ArticleTemplate />,}, //copy this template
         {path:"/*articles/BashCommands", element: <BashCommands />,},
         {path:"/*articles/SQLCommands", element: <SQLCommands/>,},
+
+        //Projects
+        {path:"/*projects/Blackjackgame", element: <BlackJackGame/>,},
+
 
 
 
