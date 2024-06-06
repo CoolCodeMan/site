@@ -7,7 +7,7 @@ a {
 
 .navBarList {
     display: flex;
-    
+    list-style-type: none;   
     flex-direction: column;
 }
 
@@ -63,7 +63,7 @@ a {
     }
 
     .contentBox{
-        top:27%;
+        top:22%;
         left:2%;
         width: 96%;
 
