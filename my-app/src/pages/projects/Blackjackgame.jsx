@@ -131,6 +131,9 @@ export default function BlackJackGame() {
 
     return(
         <>
+        <br/>
+        <a href="#/Projects"> ← Back</a>
+
         <h1>BLACKJACK</h1><h1>🤵</h1>
         <p>🂠🂠</p>
         

@@ -6,7 +6,7 @@ export default function Projects() {
         <ul>
         
             <li>
-                <b><a href="#/projects/Blackjackgame">🃏 Javascript BlackJack</a></b>
+                <a href="#/projects/Blackjackgame"><b>🃏 Javascript BlackJack </b>(work in progress)</a>
             </li><br/>
             <li>
                 <b><a href="https://github.com/CoolCodeMan/PyGames">🕹️ Simple games made with PyGame</a></b>
