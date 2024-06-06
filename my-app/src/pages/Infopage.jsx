@@ -8,8 +8,12 @@ export default function Infopage() {
 
         <br/>
 
-        <a href="https://github.com/CoolCodeMan">Github</a>
-        
+        <ul>
+            
+            <li>
+            <a href="https://github.com/CoolCodeMan">Github</a>
+            </li>
+        </ul>
 
         </>
     )
