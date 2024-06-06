@@ -3,13 +3,13 @@ import { useEffect, useState} from "react";
 export default function BlackJackGame() {
 
 
-    const [fullDeck,setFullDeck] = useState([["♠ ace" ,1 ,14],["♠ 2" ,2],["♠ 3" ,3],["♠ 4" ,4],["♠ 5" ,5],["♠ 6" ,6],["♠ 7" ,7],
-    ["♠ 8" ,8],["♠ 9" ,9],["♠ 10" ,10],["♠ 11" ,11],["♠ 12" ,12],["♠ 13" ,13],["♥ ace" ,1 ,14],["♥ 2" ,2],
+    const fullDeck = [["♠ ace" , 1], ["♠ 2" , 2], ["♠ 3", 3], ["♠ 4", 4], ["♠ 5", 5], ["♠ 6", 6], ["♠ 7", 7],
+    ["♠ 8", 8], ["♠ 9", 9], ["♠ 10", 10], ["♠ 11", 11], ["♠ 12", 12], ["♠ 13", 13], ["♥ ace", 1], ["♥ 2", 2],
     ["♥ 3" ,3],["♥ 4" ,4],["♥ 5" ,5],["♥ 6" ,6],["♥ 7" ,7],["♥ 8" ,8],["♥ 9" ,9],["♥ 10", 10],
-    ["♥ 11" ,11],["♥ 12" ,12],["♥ 13" ,13],["♦ ace", 1 ,14],["♦ 2" ,2],["♦ 3" ,3],["♦ 4" ,4],
+    ["♥ 11" ,11],["♥ 12" ,12],["♥ 13" ,13],["♦ ace", 1],["♦ 2" ,2],["♦ 3" ,3],["♦ 4" ,4],
     ["♦ 5" ,5],["♦ 6" ,6],["♦ 7" ,7],["♦ 8" ,8],["♦ 9" ,9],["♦ 10" ,10],["♦ 11" ,11],["♦ 12" ,12],
-    ["♦ 13" ,13],["♣ ace" ,1 ,14],["♣ 2" ,2],["♣ 3" ,3],["♣ 4" ,4],["♣ 5" ,5],["♣ 6" ,6],["♣ 7" ,7],
-    ["♣ 8" ,8],["♣ 9" ,9],["♣ 10" ,10],["♣ 11" ,11],["♣ 12" ,12],["♣ 13" ,13]])
+    ["♦ 13" ,13],["♣ ace" ,1],["♣ 2" ,2],["♣ 3" ,3],["♣ 4" ,4],["♣ 5" ,5],["♣ 6" ,6],["♣ 7" ,7],
+    ["♣ 8" ,8],["♣ 9" ,9],["♣ 10" ,10],["♣ 11" ,11],["♣ 12" ,12],["♣ 13" ,13]]
 
     const [deckInPlay, setDeckInPlay] = useState(fullDeck)
 
@@ -26,21 +26,34 @@ export default function BlackJackGame() {
     function checkIfScoreOverTwentyOne() {
         if((playerScore > 21) && (dealerScore <22)) {
             setGameAction("Dealer wins!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
+
         }
         else if((playerScore < 22) && (dealerScore > 21)) {
             setGameAction("Player wins!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
         }
         else if((playerScore > 21) && (dealerScore > 21)) {
             setGameAction("BOTH LOSE!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
         }
         else if((21 === playerScore) && ((playerStanding===true)&&(playerScore === dealerScore))) {
             setGameAction("DRAW!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
         }
         else if((21 >= playerScore) && ((playerStanding===true)&&(playerScore < dealerScore))) {
             setGameAction("Dealer wins!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
         }
         else if((playerStanding === true) && (dealerScore > playerScore)) {
             setGameAction("Dealer wins!");
+            document.getElementById("hitButton").disabled = true;
+            document.getElementById("standButton").disabled = true;
         }
 
     };
@@ -107,7 +120,10 @@ export default function BlackJackGame() {
         setDealerScore(0);
         setPlayerScore(0);
         setPlayerStanding(false);
-        setPlayerCards([])
+        setPlayerCards([]);
+        setDeckInPlay(fullDeck);
+        document.getElementById("hitButton").disabled = false;
+        document.getElementById("standButton").disabled = false;
     };
     useEffect(() => {}, [playerAction])
 
