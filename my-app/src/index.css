@@ -7,7 +7,7 @@ a {
 
 .navBarList {
     display: flex;
-    list-style-type: none;
+    
     flex-direction: column;
 }
 
@@ -53,3 +53,27 @@ a {
     background-color: red;
 }
 
+
+@media only screen and (max-width: 480px) {
+    .navBar {
+      height: 25%;
+      max-height: 100px;
+      width: 100%;
+      padding-right: 10px;
+    }
+
+    .contentBox{
+        top:27%;
+        left:2%;
+        width: 96%;
+
+    }
+
+
+    .navBarList {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+  }
