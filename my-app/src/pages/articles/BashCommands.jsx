@@ -3,16 +3,34 @@ export default function BashCommands() {
         <>
         <br/>
         <a href="#/Texts"> ← Back</a>
-        <h3>Useful BASH commands:</h3>
+        <h3>Useful BASH (<i>Bourne Again SHell</i>) commands:</h3><br/>
 
-        <p>#A bash comment</p>
-        <p>cd directory/    #changes directory into the specified directory</p>
-        <p>cd .. #changes directory into the directory above the current one</p>
+<pre>
 
-        <p>cp fileOrDirectoryName</p>
-        <p>reboot</p>
-        <p>exit</p>
-        <p>shutdown now</p>
+#A bash comment
+<br/>--------------------------<br/><br/>
+cd directory
+<br/>--------------------------<br/><br/>
+cd ..
+<br/>--------------------------<br/><br/>
+cp fileOrDirectoryName destinationFileName
+<br/>--------------------------<br/><br/>
+mv fileOrDirectoryName destinationFileName
+<br/>--------------------------<br/><br/>
+rm fileOrDirectoryName
+<br/>--------------------------<br/><br/>
+rm -f
+<br/>--------------------------<br/><br/>
+reboot
+<br/>--------------------------<br/><br/>
+exit
+<br/>--------------------------<br/><br/>
+shutdown now
+<br/>--------------------------<br/><br/>
+
+
+</pre>
+
 
         </>
     )
