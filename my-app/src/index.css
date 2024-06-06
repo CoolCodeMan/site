@@ -9,7 +9,7 @@ a {
   
 #contentBox {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-wrap: wrap;
+    word-wrap: break-word;
     overflow: auto;
     position: absolute;
     top: 8px;
