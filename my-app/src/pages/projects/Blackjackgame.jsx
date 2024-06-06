@@ -142,8 +142,8 @@ export default function BlackJackGame() {
         <h1>&#128116;</h1>
         <p>{playerCards}</p>
         {/*buttons*/}
-        <button className="hitButton" onClick={playerHit}>HIT</button>&ensp;&ensp;&ensp;
-        <button className="standButton" onClick={playerStand}>STAND</button>
+        <button id="hitButton" onClick={playerHit}>HIT</button>&ensp;&ensp;&ensp;
+        <button id="standButton" onClick={playerStand}>STAND</button>
         <p>total: {playerScore}</p><p>{playerAction}</p>
         <button onClick={playerRestart}>Reset</button>
 
