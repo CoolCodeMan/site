@@ -3,25 +3,24 @@ export default function App() {
     return(
         <>
 
-        <div id="navBar">
-        <h2 >💻🦍 My Github Page ☀️</h2>
+        <div className="navBar">
+        <h2>💻🦍 My Github Page ☀️</h2>
 
-            <br/><br/>
-                <a href="#/Infopage">❓ Info</a>
-                <br/><br/>
-                <a href="#/Projects">👷 Projects</a>
-            <br/><br/>
-                <a href="#/Texts">📖 Texts</a>
+                <ul className="navBarList">
 
-            <br/><br/><br/><br/><br/><br/>
-            <a href="#/Updates">🛠️ Updates</a>
+                <li><a href="#/Infopage">❓ Info &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
+                <li><a href="#/Projects">👷 Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
+                <li> <a href="#/Texts">📖 Texts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
+                <li><a href="#/Updates">🛠️ Updates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
+
+                </ul>
         </div>
 
 
-        <div id="contentBox">
+        <div className="contentBox">
             <Outlet />
         </div>
 
