@@ -7,14 +7,14 @@ export default function App() {
         <h2 >💻🦍 My Github Page ☀️</h2>
 
             <br/><br/>
-                <a href="#/Infopage">Info</a>
+                <a href="#/Infopage">❓ Info</a>
                 <br/><br/>
-                <a href="#/Projects">Projects</a>
+                <a href="#/Projects">👷 Projects</a>
             <br/><br/>
-                <a href="#/Texts">Texts</a>
+                <a href="#/Texts">📖 Texts</a>
 
             <br/><br/><br/><br/><br/><br/>
-            <a href="#/Updates">Updates</a>
+            <a href="#/Updates">🛠️ Updates</a>
 
 
 
