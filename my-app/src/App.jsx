@@ -13,11 +13,8 @@ export default function App() {
             <br/><br/>
                 <a href="#/Texts">Texts</a>
 
-            <br/><br/>
-                <a href="#/Updates">Updates</a>
-           
-            <br/><br/><br/><br/>
-                <a href="#/MonkeyPage">Mystery???</a>
+            <br/><br/><br/><br/><br/><br/>
+            <a href="#/Updates">Updates</a>
 
 
 

@@ -10,7 +10,6 @@ import Infopage from './pages/Infopage';
 import BlackJackGame from './pages/projects/Blackjackgame';
 import Projects from './pages/Projects';
 import './index.css';
-import MonkeyPage from './pages/MonkeyPage';
 import Updates from './pages/Updates';
 import Texts from './pages/Texts';
 import ArticleTemplate from './pages/articles/ArticleTemplate';
@@ -26,7 +25,6 @@ const router = createHashRouter([
     children: [
         {path: "/*Infopage", element: <Infopage />,},
         {path: "/*Projects", element: <Projects />,},
-        {path: "/*MonkeyPage", element: <MonkeyPage />, },
         {path: "/*Updates",element: <Updates />,},
         {path:"/*Texts", element: <Texts />,},
 
