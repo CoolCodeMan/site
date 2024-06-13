@@ -4,7 +4,7 @@ export default function App() {
         <>
 
         <div className="navBar">
-        <h2>💻🦍 My Github Page ☀️</h2>
+        <h2>💻🦍 My Website ☀️</h2>
 
                 <ul className="navBarList">
 
