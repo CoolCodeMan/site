@@ -3,7 +3,10 @@ export default function ArticleTemplate() {
         <>
         <br/>
         <a href="#/Texts"> ← Back</a>
-        <p>AI Tools</p>
+        <h1>AI Tools</h1>
+
+        <p>When </p>
+
         </>
     )
 }
