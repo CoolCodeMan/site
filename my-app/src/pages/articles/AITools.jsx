@@ -1,4 +1,4 @@
-export default function AITools() {
+export default function AiTools() {
     return(
         <>
         <br/>
