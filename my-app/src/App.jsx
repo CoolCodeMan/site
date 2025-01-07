@@ -12,7 +12,7 @@ export default function App() {
 
                 <li><a href="#/Projects">👷 Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
-                <li> <a href="#/Writings">📖 Texts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
+                <li> <a href="#/Texts">📖 Texts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
                 <li><a href="#/Updates">🛠️ Updates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
