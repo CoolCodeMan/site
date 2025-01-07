@@ -1,9 +1,9 @@
-export default function AiTools() {
+export default function MachineLearningTools() {
     return(
         <>
         <br/>
         <a href="#/Texts"> ← Back</a>
-        <h3>AI Tools:</h3><br/>
+        <h3>Marchine Learning Tools:</h3><br/>
 
         </>
     )
