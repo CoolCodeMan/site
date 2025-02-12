@@ -23,6 +23,7 @@ const router = createHashRouter([
     path: "/*",
     element: <App />,
     errorElement: <ErrorPage />,
+    
 
     children: [
         {path: "/*Infopage", element: <Infopage />,},
