@@ -13,6 +13,8 @@ export default function App() {
                  <a href="#/Texts" className="topBarLink">📖 Articles &nbsp;&nbsp;&nbsp;&nbsp;</a>
 
                 <a href="#/Updates" className="topBarLink">🛠️ Updates &nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                <br/>
                 
         </div>
 
