@@ -10,8 +10,6 @@ export default function Infopage() {
 
         <br/>
 
-        <h4>Links</h4>
-
         <ul>    
 
             

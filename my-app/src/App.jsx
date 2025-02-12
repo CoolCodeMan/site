@@ -4,15 +4,15 @@ export default function App() {
         <>
 
         <div className="topBar">
-        <h2>🤖 Coolcodeman's Website</h2>
+        <h3>🤖 Coolcodeman's Website</h3>
 
-                <a href="#/Infopage" className="topBarLink">❓Info &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#/Infopage" className="topBarLink">❓Info</a>&nbsp;&nbsp;
 
-                <a href="#/Projects" className="topBarLink">👷Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#/Projects" className="topBarLink">👷Projects</a>&nbsp;&nbsp;
 
-                 <a href="#/Texts" className="topBarLink">📖Articles &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                 <a href="#/Texts" className="topBarLink">📖Articles</a>&nbsp;&nbsp;
 
-                <a href="#/Updates" className="topBarLink">🛠️Updates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#/Updates" className="topBarLink">🛠️Updates </a>&nbsp;&nbsp;
 
                 <br/>
                 
