@@ -15,6 +15,8 @@ import Texts from './pages/Texts';
 import ArticleTemplate from './pages/articles/ArticleTemplate';
 import BashCommands from './pages/articles/BashCommands';
 import SQLCommands from './pages/articles/SQLCommands';
+import MLTools from './pages/articles/MLTools'
+
 
 const router = createHashRouter([
   {
@@ -33,6 +35,8 @@ const router = createHashRouter([
         {path:"/*articles/ArticleTemplate", element: <ArticleTemplate />,}, //copy this template
         {path:"/*articles/BashCommands", element: <BashCommands />,},
         {path:"/*articles/SQLCommands", element: <SQLCommands/>,},
+        {path:"/*articles/MLTools", element: <MLTools/>,},
+
 
         //Projects
         {path:"/*projects/Blackjackgame", element: <BlackJackGame/>,},
