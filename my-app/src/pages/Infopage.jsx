@@ -18,6 +18,8 @@ export default function Infopage() {
             </li>
         </ul>
 
+        <img src="gnome.png" alt="AI generated picture of a gnome."></img>
+
         </>
     )
 }
