@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom"
 export default function Texts() {
     return(
         <>
-        <h3>Texts/Notes</h3>
+        <h3>Articles</h3>
 
         <ul>
             {/* <li><a href="#/articles/ArticleTemplate">Article Name - Template</a><br/><br/></li> */}

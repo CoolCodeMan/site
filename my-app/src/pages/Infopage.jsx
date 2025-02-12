@@ -1,7 +1,7 @@
 export default function Infopage() {
     return(
         <>
-        <h3>Info</h3>
+        <h3>Hello</h3>
 
         <p>🙋‍♂️</p>
 
