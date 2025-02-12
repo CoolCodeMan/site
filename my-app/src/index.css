@@ -21,7 +21,7 @@
     padding-left: 10px;
     height: 80dvh;
     width: 99dvh;
-    position:sticky;
+    position:inherit;
     background-color: rgb(255, 255, 255);
     overflow-y: scroll;
     color: green;
