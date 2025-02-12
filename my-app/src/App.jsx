@@ -4,7 +4,7 @@ export default function App() {
         <>
 
         <div className="topBar">
-        <h3>🤖 Coolcodeman's Website</h3>
+        <h1>🤖 Coolcodeman's Website</h1>
 
                 <a href="#/Infopage" className="topBarLink">❓Info</a>&nbsp;&nbsp;
 
