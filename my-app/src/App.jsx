@@ -3,10 +3,10 @@ export default function App() {
     return(
         <>
 
-        <div className="navBar">
+        <div className="topBar">
         <h2>💻🦍 My Github Page ☀️</h2>
 
-                <ul className="navBarList">
+                <ul className="topBarLink">
 
                 <li><a href="#/Infopage">❓ Info &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br/>
 
@@ -20,7 +20,7 @@ export default function App() {
         </div>
 
 
-        <div className="contentBox">
+        <div className="outletContent">
             <Outlet />
         </div>
 

@@ -1,79 +1,29 @@
-a {
+.topBar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 5dvh;
+    text-align: center;
+    font-size: small;
+    color: green;
+}
+
+.topBarLink{
+    padding-right: 40px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    color:black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: green;
 
-  }
-
-.navBarList {
-    display: flex;
-    list-style-type: none;   
-    flex-direction: column;
 }
 
-
-  
-.contentBox {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow-wrap: break-word;
-    overflow: auto;
-    position: absolute;
-    top: 8px;
-    left: 30%;
-    background-color:whitesmoke;
-    width: 66%;
-    height: 90%;
-    padding-left: 2%;
-    border: 2px solid silver;
+.outletContent{
+    padding-left: 10px;
+    height: 80dvh;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    color: green;
+    border-style: solid;
+    border-color: greenyellow;
     border-radius: 10px;
 
 }
-
-.navBar {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid silver;
-    border-radius: 10px;
-    left: 0%;
-    top: 0%;
-    width: 25%;
-    height: 100%;
-    border-style:outset;
-    padding-left: 2%;
-    padding-bottom: 2%;
-}
-
-#hitButton {
-    background-color: green;
-
-    
-}
-
-
-#standButton {
-    background-color: red;
-}
-
-
-@media only screen and (max-width: 480px) {
-    .navBar {
-      height: 25%;
-      max-height: 100px;
-      width: 96%;
-      padding-right: 10px;
-    }
-
-    .contentBox{
-        top:22%;
-        left:2%;
-        width: 96%;
-
-    }
-
-
-    .navBarList {
-        display: flex;
-        flex-direction: row;
-    }
-    
-
-  }
