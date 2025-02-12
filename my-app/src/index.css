@@ -19,6 +19,7 @@
 .outletContent{
     padding-left: 10px;
     height: 80dvh;
+    top: 15dvh;
     background-color: rgb(255, 255, 255);
     overflow-y: scroll;
     color: green;
