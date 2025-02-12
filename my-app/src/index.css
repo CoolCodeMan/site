@@ -1,8 +1,9 @@
 .topBar{
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 100dvh;
     height: 5dvh;
     position: absolute;
+    align-content: center;
     font-size: small;
     color: green;
 }
@@ -20,7 +21,8 @@
     padding-left: 10px;
     height: 80dvh;
     width: 99dvh;
-    position: relative;
+    position: inherit;
+    align-content: center;
     top: 15dvh;
     background-color: rgb(255, 255, 255);
     overflow-y: scroll;
