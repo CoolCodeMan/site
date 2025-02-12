@@ -15,6 +15,7 @@ export default function App() {
                 <a href="#/Updates" className="topBarLink">🛠️ Updates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 
         </div>
+        <br/><br/>
 
 
         <div className="outletContent">
