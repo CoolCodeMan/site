@@ -10,7 +10,7 @@ export default function App() {
 
                 <a href="#/Projects" className="topBarLink">👷 Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
-                 <a href="#/Texts" className="topBarLink">📖 Texts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                 <a href="#/Texts" className="topBarLink">📖 Articles &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
                 <a href="#/Updates" className="topBarLink">🛠️ Updates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 

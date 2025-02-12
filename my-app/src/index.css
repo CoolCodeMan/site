@@ -20,6 +20,7 @@
 .outletContent{
     padding-left: 10px;
     height: 80dvh;
+    width: 99dvh;
     position: absolute;
     top: 15dvh;
     background-color: rgb(255, 255, 255);
