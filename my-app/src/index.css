@@ -17,14 +17,12 @@
 }
 
 .outletContent{
-    padding-left: 10px;
     height: 78dvh;
-    width: 100%;
+    width: 97%;
     position:relative;
     background-color: rgb(255, 255, 255);
     overflow-y: scroll;
     color: green;
-    border-style: solid;
     border-color: rgb(136, 255, 134);
     border-radius: 10px;
 
