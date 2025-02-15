@@ -21,8 +21,10 @@ import MLTools from './pages/articles/MLTools'
 const router = createHashRouter([
   {
     path: "/*",
-    element: <App />,
+    element: <App> </App>,
     errorElement: <ErrorPage />,
+    default: <Infopage />,
+
     
 
     children: [

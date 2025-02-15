@@ -131,6 +131,8 @@ export default function BlackJackGame() {
 
     return(
         <>
+        <div className="Blackjack">
+
         <br/>
         <a href="#/Projects"> ← Back</a>
 
@@ -147,6 +149,7 @@ export default function BlackJackGame() {
         <p>total: {playerScore}</p><p>{playerAction}</p>
         <button onClick={playerRestart}>Reset</button>
 
+        </div>
         </>
     );
 
