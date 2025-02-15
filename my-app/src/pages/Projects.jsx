@@ -11,7 +11,9 @@ export default function Projects() {
             <li>
                 <a href="https://github.com/OKgamegruuppi/game_project"><b>👾 A Pygame game course group project</b></a>
             </li>
-
+            <li>
+                <a href="https://github.com/CoolCodeMan/RandomPythonStuff"><b>🐍 Python Projects</b></a>
+            </li>
         
         </ul>
 
