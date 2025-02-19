@@ -1,6 +1,6 @@
 
 :root{
-    background-color: darkcyan;
+    background-color: #008b8b;
 
 }
 
@@ -56,6 +56,9 @@ button{
 }
 
 
+a{
+  color: black;
+}
 
 
 ul{
