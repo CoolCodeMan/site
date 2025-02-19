@@ -8,7 +8,7 @@ export default function Infopage() {
         <br/>
 
 
-        <b><a href="https://github.com/CoolCodeMan">💻 My Github</a></b><br/>
+        <b><a href="https://github.com/CoolCodeMan">💻 My Github</a></b><br/><br/>
 
 
         <img src="gnome.png" alt="AI generated picture of a gnome."></img>
