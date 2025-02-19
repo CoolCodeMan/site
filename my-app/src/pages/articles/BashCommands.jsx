@@ -1,6 +1,7 @@
 export default function BashCommands() {
     return(
         <>
+        <div className="article">
         <br/>
         <a href="#/Texts"> ← Back</a>
         <h3>Useful BASH (<i>Bourne Again SHell</i>) commands:</h3><br/>
@@ -31,7 +32,7 @@ shutdown now
 
 </pre>
 
-
+        </div>
         </>
     )
 }

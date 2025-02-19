@@ -13,7 +13,7 @@ export default function App() {
             <div className="topBar">
             <h1>🤖 CoolCodeMan's Website</h1>
 
-                    <button><a href="#/Infopage" className="topBarLink" onClick={() => {setClicked(1)}} >❓Info</a></button>&nbsp;&nbsp;
+                    <button className="topBarButton"><a href="#/Infopage" className="topBarLink" onClick={() => {setClicked(1)}} >❓Info</a></button>&nbsp;&nbsp;
 
                     <button><a href="#/Projects" className="topBarLink" onClick={() => {setClicked(1)}}>👷Projects</a></button>&nbsp;&nbsp;
 

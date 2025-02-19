@@ -1,6 +1,7 @@
 export default function SQLCommands() {
     return(
         <>
+                <div className="article">
         <br/>
         <a href="#/Texts"> ← Back</a>
         <h3>Useful SQL commands:</h3>
@@ -41,7 +42,7 @@ SELECT *  FROM Taulukko WHERE Name IN ('Eppu', 'Hannu', Jari');
 </pre>
 
 
-
+        </div>
 
 
         </>

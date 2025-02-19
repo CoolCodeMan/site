@@ -1,6 +1,8 @@
 export default function MLTools() {
     return(
         <>
+        <div className="article">
+
         <br/>
         <a href="#/Texts"> ← Back</a>
         <h3>Handy Machine Learning Tools:</h3>
@@ -14,6 +16,7 @@ export default function MLTools() {
             <ul>
                 <li><a href="https://huggingface.com">huggingface.com</a></li>                
             </ul>
+        </div>
 
         </>
     )
