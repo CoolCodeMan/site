@@ -6,6 +6,12 @@ export default function App() {
 
     const [clicked, setClicked] = useState(0);
 
+    const ButtonPress = () => {
+        setClicked(1);
+        window.scroll(0, 0)
+
+    }
+
     if(clicked === 0) {
         return(
 
@@ -13,13 +19,13 @@ export default function App() {
             <div className="topBar">
             <h1>🤖 CoolCodeMan's Website</h1>
 
-                    <button className="topBarButton"><a href="#/Infopage" className="topBarLink" onClick={() => {setClicked(1)}} >❓Info</a></button>&nbsp;&nbsp;
+                    <button className="topBarButton"><a href="#/Infopage" className="topBarLink" onClick={ButtonPress} >❓Info</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Projects" className="topBarLink" onClick={() => {setClicked(1)}}>👷Projects</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Projects" className="topBarLink" onClick={ButtonPress}>👷Projects</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Texts" className="topBarLink" onClick={() => {setClicked(1)}}>📖Articles</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Texts" className="topBarLink" onClick={ButtonPress}>📖Articles</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Updates" className="topBarLink" onClick={() => {setClicked(1)}}>🛠️Updates</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Updates" className="topBarLink" onClick={ButtonPress}>🛠️Updates</a></button>&nbsp;&nbsp;
                     <br/>
                     
             </div>
@@ -43,13 +49,13 @@ export default function App() {
             <div className="topBar">
             <h1>🤖 CoolCodeMan's Website</h1>
 
-                    <button><a href="#/Infopage" className="topBarLink" onClick={() => {setClicked(1)}} >❓Info</a></button>&nbsp;&nbsp;
+                    <button className="topBarButton"><a href="#/Infopage" className="topBarLink" onClick={ButtonPress} >❓Info</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Projects" className="topBarLink" onClick={() => {setClicked(1)}}>👷Projects</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Projects" className="topBarLink" onClick={ButtonPress}>👷Projects</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Texts" className="topBarLink" onClick={() => {setClicked(1)}}>📖Articles</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Texts" className="topBarLink" onClick={ButtonPress}>📖Articles</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Updates" className="topBarLink" onClick={() => {setClicked(1)}}>🛠️Updates</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Updates" className="topBarLink" onClick={ButtonPress}>🛠️Updates</a></button>&nbsp;&nbsp;
                     <br/>
                     
             </div>

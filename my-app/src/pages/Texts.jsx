@@ -4,18 +4,19 @@ export default function Texts() {
         <>
         <h3>Articles</h3>
 
-
-        {/* <li><a href="#/articles/ArticleTemplate">Article Name - Template</a><br/><br/></li> */}
+        <ul>
+            {/* <li><a href="#/articles/ArticleTemplate">Article Name - Template</a><br/><br/></li> */}
 
              
-        <li><b><a href="#/articles/MLTools">Useful Machine Learning Tools - 2024/06/06</a></b><br/><br/></li>
-        <li><b><a href="#/articles/BashCommands">Useful BASH Commands - 2024/06/06</a></b><br/><br/></li>
-        <li><b><a href="#/articles/SQLCommands">Useful SQL Commands - 2024/06/06</a></b></li>
+            <li><b><a href="#/articles/MLTools">Useful Machine Learning Tools - 2024/06/06</a></b><br/><br/></li>
+            <li><b><a href="#/articles/BashCommands">Useful BASH Commands - 2024/06/06</a></b><br/><br/></li>
+            <li><b><a href="#/articles/SQLCommands">Useful SQL Commands - 2024/06/06</a></b></li>
 
+            </ul>
 
-        <div>
-            <Outlet/>
-        </div>
+            <div>
+                <Outlet/>
+            </div>
             
             </>
     )
