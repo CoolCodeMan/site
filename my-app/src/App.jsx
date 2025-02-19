@@ -23,7 +23,7 @@ export default function App() {
 
                     <button><a href="#/Projects" className="topBarLink" onClick={ButtonPress}>👷Projects</a></button>&nbsp;&nbsp;
 
-                    <button><a href="#/Texts" className="topBarLink" onClick={ButtonPress}>📖Articles</a></button>&nbsp;&nbsp;
+                    <button><a href="#/Texts" className="topBarLink" onClick={ButtonPress}>📖Journal</a></button>&nbsp;&nbsp;
 
                     <button><a href="#/Updates" className="topBarLink" onClick={ButtonPress}>🛠️Updates</a></button>&nbsp;&nbsp;
                     <br/>
